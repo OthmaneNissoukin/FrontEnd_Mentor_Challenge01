@@ -1,2 +1,5 @@
-# FrontEnd_Mentor_Challenge01
-News Home Page Challenge
+# Frontend Mentor - News homepage
+
+![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
+
+## Welcome! 👋
