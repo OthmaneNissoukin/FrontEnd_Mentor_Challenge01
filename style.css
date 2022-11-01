@@ -45,6 +45,7 @@ header nav ul li {
 header nav ul li a {
     color: var(--Dark-grayish-blue);
     text-decoration: none;
+    transition: all 200ms linear;
 }
 
 header nav ul li a:hover {
@@ -76,7 +77,7 @@ div.container {
 }
 
 div.container div.future div.image {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 div.container div.future div.image img {
@@ -106,6 +107,7 @@ div.container div.future div.info a {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 700;
+    transition: all 200ms linear;
 }
 
 div.container div.future div.info a:hover {
@@ -120,7 +122,7 @@ div.container div.table-of-content {
 }
 
 div.container div.table-of-content h2 {
-    font-size: 24px;
+    font-size: 30px;
     color: var(--Soft-orange);
 }
 
@@ -137,6 +139,7 @@ div.container div.table-of-content div.cont a{
     color: var(--Off-white);
     margin-bottom: 10px;
     font-weight: 700;
+    transition: all 200ms linear;
 }
 
 div.container div.table-of-content div.cont a:hover {
@@ -144,7 +147,7 @@ div.container div.table-of-content div.cont a:hover {
 }
 
 div.container div.table-of-content div.cont p{
-    color: var(--Dark-grayish-blue);
+    color: var(--Grayish-blue);
     font-size: 13px;
     line-height: 1.6;
 }
@@ -195,6 +198,7 @@ div.container div.post-container div.post div.post-info a {
     color: var(--Very-dark-blue);
     font-size: 22px;
     text-decoration: none;
+    transition: all 200ms linear;
 }
 
 div.container div.post-container div.post div.post-info a:hover {
