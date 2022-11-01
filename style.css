@@ -54,7 +54,7 @@ header nav ul li a:hover {
 /* Header Finished */
 
 div.container {
-    margin-top: 20px;
+    margin-top: 30px;
     display: grid;
     gap: 30px;
     padding: 0px 20px;
@@ -95,7 +95,7 @@ div.container div.future h1 {
 div.container div.future div.info p {
     color: var(--Dark-grayish-blue);
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 div.container div.future div.info a {
@@ -116,10 +116,11 @@ div.container div.future div.info a:hover {
 
 div.container div.table-of-content {
     background-color: var(--Very-dark-blue);
-    padding: 20px;
+    padding: 30px 20px;
 }
 
 div.container div.table-of-content h2 {
+    font-size: 24px;
     color: var(--Soft-orange);
 }
 
@@ -153,7 +154,9 @@ div.container div.table-of-content div.cont p{
 div.container div.post-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-top: 40px;
 }
 
 div.container div.post-container div.post{
