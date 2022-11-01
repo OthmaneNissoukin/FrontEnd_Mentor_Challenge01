@@ -28,6 +28,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 60px;
 }
 
 .holder {
@@ -88,6 +89,7 @@ div.container div.future h1 {
     color: var(--Very-dark-blue);
     font-size: 50px;
     line-height: 1.0;
+    font-weight: 800;
 }
 
 div.container div.future div.info p {
@@ -133,6 +135,7 @@ div.container div.table-of-content div.cont a{
     text-decoration: none;
     color: var(--Off-white);
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 div.container div.table-of-content div.cont a:hover {
