@@ -54,52 +54,53 @@ header nav ul li a:hover {
 
 /* Header Finished */
 
-div.container {
+main.container {
     margin-top: 30px;
     display: grid;
     gap: 30px;
     padding: 0px 20px;
+    margin-bottom: 50px;
 }
 
 @media (min-width: 920px) {
-    div.container {
+    main.container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto;
     }
-    div.container div.future {
+    main.container div.future {
         grid-column: span 2;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    div.container div.future div.image {
+    main.container div.future div.image {
         grid-column: span 2;
     }
 }
 
-div.container div.future div.image {
-    margin-bottom: 20px;
+main.container div.future div.image {
+    margin-bottom: 40px;
 }
 
-div.container div.future div.image img {
+main.container div.future div.image img {
     width: 100%;
 }
 
 /* Bright Future Content */
 
-div.container div.future h1 {
+main.container div.future h1 {
     color: var(--Very-dark-blue);
     font-size: 50px;
     line-height: 1.0;
     font-weight: 800;
 }
 
-div.container div.future div.info p {
+main.container div.future div.info p {
     color: var(--Dark-grayish-blue);
     font-size: 15px;
     margin-bottom: 40px;
 }
 
-div.container div.future div.info a {
+main.container div.future div.info a {
     background-color: var(--Soft-red);
     color: var(--Off-white);
     padding: 12px 32px;
@@ -110,31 +111,31 @@ div.container div.future div.info a {
     transition: all 200ms linear;
 }
 
-div.container div.future div.info a:hover {
+main.container div.future div.info a:hover {
     background-color: var(--Very-dark-blue);
 }
 
 /* Table Of Content */
 
-div.container div.table-of-content {
+main.container div.table-of-content {
     background-color: var(--Very-dark-blue);
     padding: 30px 20px;
 }
 
-div.container div.table-of-content h2 {
+main.container div.table-of-content h2 {
     font-size: 30px;
     color: var(--Soft-orange);
 }
 
-div.container div.table-of-content div.cont {
+main.container div.table-of-content div.cont {
     padding: 20px 0px;
 }
 
-div.container div.table-of-content div.cont:not(:last-child){
+main.container div.table-of-content div.cont:not(:last-child){
     border-bottom: 1px solid var(--Dark-grayish-blue);
 }
 
-div.container div.table-of-content div.cont a{
+main.container div.table-of-content div.cont a{
     text-decoration: none;
     color: var(--Off-white);
     margin-bottom: 10px;
@@ -142,11 +143,11 @@ div.container div.table-of-content div.cont a{
     transition: all 200ms linear;
 }
 
-div.container div.table-of-content div.cont a:hover {
+main.container div.table-of-content div.cont a:hover {
     color: var(--Soft-orange);
 }
 
-div.container div.table-of-content div.cont p{
+main.container div.table-of-content div.cont p{
     color: var(--Grayish-blue);
     font-size: 13px;
     line-height: 1.6;
@@ -154,20 +155,20 @@ div.container div.table-of-content div.cont p{
 
 /* Posts Contents */
 
-div.container div.post-container {
+main.container footer {
     display: flex;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 40px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
-div.container div.post-container div.post{
+main.container footer div.post{
     display: flex;
     gap: 15px;
 }
 
-div.container div.post-container span {
+main.container footer span {
     display: block;
     width: 100px;
     height: 140px;
@@ -175,56 +176,56 @@ div.container div.post-container span {
     flex-grow: 0;
 }
 
-div.container div.post-container span img {
+main.container footer span img {
     width: 100%;
 }
 
-div.container div.post-container div.post div.post-info{
+main.container footer div.post div.post-info{
     line-height: 1.6;
 }
 
-div.container div.post-container div.post div.post-info {
+main.container footer div.post div.post-info {
     color: var(--Dark-grayish-blue);
 }
 
-div.container div.post-container div.post div.post-info p.counter {
+main.container footer div.post div.post-info p.counter {
     color: var(--Grayish-blue);
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 3px;
 }
 
-div.container div.post-container div.post div.post-info a {
+main.container footer div.post div.post-info a {
     color: var(--Very-dark-blue);
     font-size: 22px;
     text-decoration: none;
     transition: all 200ms linear;
 }
 
-div.container div.post-container div.post div.post-info a:hover {
+main.container footer div.post div.post-info a:hover {
     color: var(--Soft-red);
 }
 
 @media (min-width: 920px) {
-    div.container div.post-container {
+    main.container footer {
         grid-column: span 3;
         flex-wrap: nowrap;
     }
 
-    div.container div.post-container span {
+    main.container footer span {
         width: 80px;
         height: 100px;
     }
 
-    div.container div.post-container div.post div.post-info{
+    main.container footer div.post div.post-info{
         line-height: 1.4;
     }
     
-    div.container div.post-container div.post div.post-info a {
+    main.container footer div.post div.post-info a {
         font-size: 16px;
     }
 
-    div.container div.post-container div.post div.post-info p {
+    main.container footer div.post div.post-info p {
         font-size: 14px;
         list-style: 1.0;
     }
